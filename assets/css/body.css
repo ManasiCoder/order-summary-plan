@@ -1,3 +1,10 @@
 body {
+  padding: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.6rem;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
