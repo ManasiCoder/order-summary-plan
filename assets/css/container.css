@@ -1,0 +1,6 @@
+main.container {
+  max-width: 100%;
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-shadow: 0 1.2rem 8rem var(--desatured-blue);
+}

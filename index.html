@@ -20,25 +20,31 @@
 <body>
 
   <main class="container">
-    <img src="./assets/images/illustration-hero.svg" alt="A illustration girl dacing" />
-
-    <h1>Order Summary</h1>
-
-    <p>
-      You can now listen to millions of songs, audiobooks, and podcasts on any
-      device anywhere you like!
-    </p>
+    <img class="hero" src="./assets/images/illustration-hero.svg" alt="A illustration girl dacing" />
 
     <div class="plan-container">
-      <img src="./assets/images/icon-music.svg" alt="music icon" />
-      <h2>Annual Plan</h2>
-      <span>$59.99/year</span>
+      <h1>Order Summary</h1>
 
-      <a href="#">Change</a>
+      <p>
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+
+      <div class="plan-display">
+        <div class="image-and-plan">
+          <img src="./assets/images/icon-music.svg" alt="music icon" />
+          <div class="name-and-price">
+            <h2>Annual Plan</h2>
+            <span>$59.99/year</span>
+          </div>
+        </div>
+
+        <a href="#">Change</a>
+      </div>
+
+      <button class="payment">Proceed to Payment</button>
+      <button class="cancel">Cancel Order</button>
     </div>
-
-    <button class="payment">Proceed to Payment</button>
-    <button class="cancel">Cancel Order</button>
   </main>
 
 </body>

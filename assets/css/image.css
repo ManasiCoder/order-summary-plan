@@ -1,0 +1,7 @@
+img {
+  max-width: 100%;
+}
+
+img.hero {
+  border-radius: 1rem 1rem 0 0;
+}
