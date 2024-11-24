@@ -1,8 +1,8 @@
 div.plan-display {
   padding: 1.6rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   text-align: start;
   border-radius: 1rem;
   background-color: var(--very-pale-blue);
@@ -10,17 +10,23 @@ div.plan-display {
   a {
     font-size: 1.2rem;
     font-weight: 700;
+    transition: all 0.5s ease;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: var(--purple);
   }
 
   div.image-and-plan {
     display: flex;
     gap: 1.6rem;
     align-items: center;
-    
+
     img {
       max-width: 60px;
     }
-    
+
     h2 {
       font-size: 1.6rem;
     }
@@ -29,6 +35,13 @@ div.plan-display {
       font-size: 1.4rem;
     }
   }
+}
 
+@media screen and (max-width: 370px) {
+  div.plan-display,
+  div.image-and-plan {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
 
 }
