@@ -9,3 +9,9 @@ body {
   background-size: cover;
 }
 
+@media screen and (min-width: 1080px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-size: contain;
+  }
+}

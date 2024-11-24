@@ -11,6 +11,7 @@ div.plan-display {
     font-size: 1.2rem;
     font-weight: 700;
     transition: all 0.5s ease;
+    color: var(--bright-blue);
   }
 
   a:hover {
